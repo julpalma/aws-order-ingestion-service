@@ -31,3 +31,16 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Logs
+*.log
+
+# Mac
+.DS_Store
+
+# Environment variables (important for AWS later)
+.env
+application-local.properties
+
+# Docker (optional)
+*.pid
