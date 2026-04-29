@@ -24,6 +24,7 @@ import java.util.List;
 public class OrderService {
 
     private final OrderRepository orderRepository;
+    private final SqsPublisherService sqsPublisherService;
 
     public Order createOrder(CreateOrderRequest request) {
         Order order = Order.builder()
@@ -33,7 +34,11 @@ public class OrderService {
                 .amount(request.getAmount())
                 .build();
 
-        return orderRepository.save(order);
+        Order savedOrder = orderRepository.save(order);
+
+        sqsPublisherService.sendOrderMessage(savedOrder);
+
+        return savedOrder;
     }
 
     public Order getOrderById(Long id) {
@@ -42,6 +47,10 @@ public class OrderService {
 
     public List<Order> getOrderByStatus(OrderStatus orderStatus) {
         return orderRepository.findByOrderStatus(orderStatus);
+    }
+
+    public Order save(Order order) {
+        return orderRepository.save(order);
     }
 
 }

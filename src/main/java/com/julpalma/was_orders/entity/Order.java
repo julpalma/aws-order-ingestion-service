@@ -54,4 +54,7 @@ public class Order {
         this.updatedAt = LocalDateTime.now();
     }
 
+    @Column(name = "s3_key")
+    private String s3Key;
+
 }
