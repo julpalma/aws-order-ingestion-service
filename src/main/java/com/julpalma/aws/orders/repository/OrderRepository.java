@@ -1,7 +1,7 @@
-package com.julpalma.was_orders.repository;
+package com.julpalma.aws.orders.repository;
 
-import com.julpalma.was_orders.entity.Order;
-import com.julpalma.was_orders.enums.OrderStatus;
+import com.julpalma.aws.orders.entity.Order;
+import com.julpalma.aws.orders.enums.OrderStatus;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

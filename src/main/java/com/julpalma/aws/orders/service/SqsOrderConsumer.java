@@ -1,9 +1,9 @@
-package com.julpalma.was_orders.service;
+package com.julpalma.aws.orders.service;
 
-import com.julpalma.was_orders.config.AwsProperties;
-import com.julpalma.was_orders.entity.Order;
-import com.julpalma.was_orders.enums.OrderStatus;
-import com.julpalma.was_orders.event.OrderEvent;
+import com.julpalma.aws.orders.config.AwsProperties;
+import com.julpalma.aws.orders.entity.Order;
+import com.julpalma.aws.orders.enums.OrderStatus;
+import com.julpalma.aws.orders.event.OrderEvent;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.scheduling.annotation.Scheduled;

@@ -1,6 +1,6 @@
-package com.julpalma.was_orders.service;
+package com.julpalma.aws.orders.service;
 
-import com.julpalma.was_orders.config.AwsProperties;
+import com.julpalma.aws.orders.config.AwsProperties;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;

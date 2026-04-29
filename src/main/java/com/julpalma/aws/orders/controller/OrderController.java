@@ -1,10 +1,10 @@
-package com.julpalma.was_orders.controller;
+package com.julpalma.aws.orders.controller;
 
-import com.julpalma.was_orders.dto.CreateOrderRequest;
-import com.julpalma.was_orders.entity.Order;
-import com.julpalma.was_orders.enums.OrderStatus;
-import com.julpalma.was_orders.service.OrderService;
-import com.julpalma.was_orders.service.S3StorageService;
+import com.julpalma.aws.orders.dto.CreateOrderRequest;
+import com.julpalma.aws.orders.entity.Order;
+import com.julpalma.aws.orders.enums.OrderStatus;
+import com.julpalma.aws.orders.service.OrderService;
+import com.julpalma.aws.orders.service.S3StorageService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

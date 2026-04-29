@@ -1,6 +1,6 @@
-package com.julpalma.was_orders.event;
+package com.julpalma.aws.orders.event;
 
-import com.julpalma.was_orders.entity.Order;
+import com.julpalma.aws.orders.entity.Order;
 import lombok.*;
 
 import java.math.BigDecimal;

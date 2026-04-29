@@ -1,4 +1,4 @@
-package com.julpalma.was_orders;
+package com.julpalma.aws.orders;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

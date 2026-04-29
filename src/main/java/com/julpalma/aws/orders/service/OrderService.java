@@ -1,9 +1,9 @@
-package com.julpalma.was_orders.service;
+package com.julpalma.aws.orders.service;
 
-import com.julpalma.was_orders.dto.CreateOrderRequest;
-import com.julpalma.was_orders.entity.Order;
-import com.julpalma.was_orders.enums.OrderStatus;
-import com.julpalma.was_orders.repository.OrderRepository;
+import com.julpalma.aws.orders.dto.CreateOrderRequest;
+import com.julpalma.aws.orders.entity.Order;
+import com.julpalma.aws.orders.enums.OrderStatus;
+import com.julpalma.aws.orders.repository.OrderRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;

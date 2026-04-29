@@ -1,6 +1,6 @@
-package com.julpalma.was_orders.entity;
+package com.julpalma.aws.orders.entity;
 
-import com.julpalma.was_orders.enums.OrderStatus;
+import com.julpalma.aws.orders.enums.OrderStatus;
 import jakarta.persistence.*;
 import lombok.*;
 

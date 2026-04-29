@@ -1,4 +1,4 @@
-package com.julpalma.was_orders.config;
+package com.julpalma.aws.orders.config;
 
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;

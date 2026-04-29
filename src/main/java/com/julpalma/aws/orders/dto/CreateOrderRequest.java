@@ -1,4 +1,4 @@
-package com.julpalma.was_orders.dto;
+package com.julpalma.aws.orders.dto;
 
 import jakarta.validation.constraints.DecimalMin;
 import jakarta.validation.constraints.NotBlank;

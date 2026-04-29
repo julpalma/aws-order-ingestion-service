@@ -1,4 +1,4 @@
-package com.julpalma.was_orders.config;
+package com.julpalma.aws.orders.config;
 
 import lombok.Getter;
 import lombok.Setter;

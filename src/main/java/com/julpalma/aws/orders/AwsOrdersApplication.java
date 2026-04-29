@@ -1,4 +1,4 @@
-package com.julpalma.was_orders;
+package com.julpalma.aws.orders;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

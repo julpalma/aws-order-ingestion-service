@@ -1,4 +1,4 @@
-package com.julpalma.was_orders.enums;
+package com.julpalma.aws.orders.enums;
 
 public enum OrderStatus {
     RECEIVED,
