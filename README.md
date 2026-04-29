@@ -1,5 +1,6 @@
-📦 aws-orders — Event-Driven Order Processing System (AWS + SQS + Spring Boot)
-🚀 Overview
+# 📦 aws-orders — Event-Driven Order Processing System (AWS + SQS + Spring Boot)
+
+## 🚀 Overview
 
 aws-orders is a Spring Boot microservice that implements an event-driven order processing system using AWS SQS (LocalStack for local development).
 
@@ -10,7 +11,7 @@ When an order is created via REST API, it is:
 3. Consumed asynchronously by a scheduled worker
 4. Processed and updated in the database
 
-🧱 Architecture
+## 🧱 Architecture
 
 Client (curl / Postman)
 ↓
@@ -28,7 +29,7 @@ Order Processing Service
 ↓
 Database update (status lifecycle)
 
-⚙️ Tech Stack
+## ⚙️ Tech Stack
 - Java 17
 - Spring Boot
 - Spring Data JPA
@@ -38,7 +39,7 @@ Database update (status lifecycle)
 - Maven
 - MySQL
 
-📌 Features
+## 📌 Features
 
 - REST API for order creation
 - Input validation using Bean Validation (@Valid)
@@ -49,7 +50,7 @@ Database update (status lifecycle)
 - Message deletion after successful processing
 - Local AWS simulation using LocalStack
 
-🔁 Order Processing Flow
+## 🔁 Order Processing Flow
 
 1. Order created via REST API
 2. Saved in database with status RECEIVED
@@ -60,7 +61,7 @@ Database update (status lifecycle)
    PROCESSING -> then COMPLETED
 7. Message is deleted from SQS
 
-🧪 How to Run Locally
+## 🧪 How to Run Locally
 
 1. Start docker:
    ```bash
