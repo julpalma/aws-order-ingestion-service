@@ -1,4 +1,4 @@
-# 📦 aws-orders — Event-Driven Order Processing System (AWS + SQS + Spring Boot)
+# 📦 Event-Driven Order Processing System (AWS + SQS + Spring Boot)
 
 ## 🚀 Overview
 
