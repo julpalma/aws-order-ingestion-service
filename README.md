@@ -13,21 +13,7 @@ When an order is created via REST API, it is:
 
 ## 🧱 Architecture
 
-Client (curl / Postman)
-↓
-Spring Boot REST API
-↓
-Order Service (DB persistence)
-↓
-SQS Publisher Service
-↓
-AWS SQS (LocalStack)
-↓
-Scheduled Consumer (@Scheduled polling)
-↓
-Order Processing Service
-↓
-Database update (status lifecycle)
+Client (curl / Postman) → Spring Boot REST API → Order Service (DB persistence) → SQS Publisher Service → AWS SQS (LocalStack) → Scheduled Consumer → Order Processing Service → Database update (status lifecycle)
 
 ## ⚙️ Tech Stack
 - Java 17
